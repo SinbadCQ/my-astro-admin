@@ -1,0 +1,15 @@
+---
+import Layout from "@layouts/Layout.astro";
+
+export function getStaticPaths(props) {
+  return [
+    { params: { id: "1" } },
+    { params: { id: "2" } },
+    { params: { id: undefined } },
+  ];
+}
+
+const { id } = Astro.params;
+---
+
+<Layout>order id details {id}</Layout>

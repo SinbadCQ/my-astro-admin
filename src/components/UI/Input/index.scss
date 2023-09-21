@@ -1,0 +1,18 @@
+.default-input {
+  @apply border-transparent;
+}
+.focus-input {
+  @apply border-blue-500 bg-transparent;
+}
+.error-input {
+  @apply border-red-500;
+  .left {
+    @apply text-red-500;
+  }
+  input {
+    @apply text-red-500;
+  }
+  .right {
+    @apply text-red-500;
+  }
+}

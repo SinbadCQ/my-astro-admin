@@ -1,0 +1,20 @@
+.fade-out {
+  @apply opacity-0;
+}
+.fade-in {
+  @apply opacity-100;
+}
+
+.fade-zoom-out {
+  @apply opacity-0 scale-95;
+}
+.fade-zoom-in {
+  @apply opacity-100 scale-100;
+}
+
+.fade-slide-bottom-out {
+  @apply opacity-0 translate-y-1/2;
+}
+.fade-slide-bottom-in {
+  @apply opacity-100 translate-y-0;
+}
