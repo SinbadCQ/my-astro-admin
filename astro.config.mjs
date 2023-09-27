@@ -7,5 +7,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [react(), tailwind()],
   site: 'https://SinbadCQ.github.io',
-  base: '/my-astro-admin'
+  // base: '/my-astro-admin'
 });
