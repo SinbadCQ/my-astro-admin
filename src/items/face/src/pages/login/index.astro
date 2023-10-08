@@ -1,8 +1,11 @@
 ---
-import Layout from "../../layouts/Layout.astro";
+import Layout from "@layouts/Layout.astro";
+import Store from "@store/index.jsx";
 import Login from "@components/Login";
 ---
 
 <Layout>
-  <Login client:load />
+  <Store>
+    <Login client:load />
+  </Store>
 </Layout>
